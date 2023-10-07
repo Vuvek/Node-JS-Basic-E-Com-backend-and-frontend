@@ -1,0 +1,44 @@
+.form-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    width: 50%;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input {
+    padding: 1rem;  
+    margin: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.518);
+}
+
+.appButton {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width : 700px) {
+    .shadow {
+        width: 85%;
+        padding: 2rem;
+    }
+    
+}
